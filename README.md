@@ -1,4 +1,4 @@
-# OBS Plugin to record CS:GO with Trusted Mode
+# OBS Plugin to capture CS:GO with Trusted Mode enabled
 
 Ever since Valve introduced [Trusted Mode](https://blog.counter-strike.net/index.php/2020/07/30991/) you could no longer record Counter-Strike: Global Offensive without using `-allow_third_party_software` in your start parameters.
 
@@ -27,4 +27,4 @@ Put `obs-csgo.dll` into the respective folder:
 ## Important Information
 
 * Copying anything to `C:\Windows\` requires admin rights, so for the first time and when OBS updates the dlls, the plugin will ask you to start OBS/Streamlabs with admin rights.
-* This will have no effect on VAC / FaceIt / etc. since the original signed dlls from OBS are untouched and only copied to a different location.
+* This should have no effect on VAC / FaceIt / etc. since the original signed dlls from OBS are untouched and only copied to a different location.
