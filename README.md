@@ -17,6 +17,10 @@ graphics-hook64.dll
 
 Further the library path in OBS will be patched to load the same dlls but from the new location.
 
+## Download
+
+[Go to the releases page.](https://github.com/luastoned/obs-csgo/releases)
+
 ## Installing the Plugin
 
 Put `obs-csgo.dll` into the respective folder:
