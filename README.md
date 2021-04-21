@@ -30,7 +30,7 @@ Put `obs-csgo.dll` into the respective folder:
 ## FAQ / Important Information
 
 * Why does the popup require admin privileges?
-  * Copying anything to `C:\Windows\` requires admin privileges, so for the first time and when OBS updates the dlls, the plugin will ask you to start OBS/Streamlabs with admin rights.
+  * Copying anything to `C:\Windows\` requires admin privileges, so for the first time and when OBS updates the dlls, the plugin will ask you to start OBS/Streamlabs with admin privileges.
 * Will VAC / FaceItAC / etc. ban me?
   * This should have no effect on VAC / FaceIt / etc. since the original signed dlls from OBS are untouched and only copied to a different location.
 * CS:GO crashes when the plugin is installed
