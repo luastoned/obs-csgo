@@ -27,3 +27,8 @@ Put `obs-csgo.dll` into the respective folder:
 
 * Copying anything to `C:\Windows\` requires admin rights, so for the first time and when OBS updates the dlls, the plugin will ask you to start OBS/Streamlabs with admin rights.
 * This should have no effect on VAC / FaceIt / etc. since the original signed dlls from OBS are untouched and only copied to a different location.
+
+## Screenshots
+
+![OBS](https://user-images.githubusercontent.com/173158/115609778-434a7e80-a2e8-11eb-8a37-4425c8008130.png)
+![Streamlabs](https://user-images.githubusercontent.com/173158/115610053-a2a88e80-a2e8-11eb-914d-a90f14727940.png)
