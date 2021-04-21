@@ -6,6 +6,8 @@ Since Valve introduced [Trusted Mode](https://blog.counter-strike.net/index.php/
 
 This is not desireable, as it might have a negative impact on your game experience (Trust Factor).
 
+## How it works
+
 Signed dlls from `C:\Windows\` are whitelisted, so this plugin will create a folder `obs-studio-hook` and copy the following two signed dlls from OBS there.
 
 ```
@@ -13,7 +15,7 @@ graphics-hook32.dll
 graphics-hook64.dll
 ```
 
-Further the path will be patched in OBS to load the same dlls but from the new location.
+Further the library path in OBS will be patched to load the same dlls but from the new location.
 
 ## Installing the Plugin
 
@@ -24,4 +26,4 @@ Put `obs-csgo.dll` into the respective folder:
 ## Important Information
 
 * Copying anything to `C:\Windows\` requires admin rights, so for the first time and when OBS updates the dlls, the plugin will ask you to start OBS/Streamlabs with admin rights.
-* This will have no effect on VAC/FaceIt since the original signed dlls from OBS are untouched and only copied to a different location.
+* This will have no effect on VAC / FaceIt / etc. since the original signed dlls from OBS are untouched and only copied to a different location.
