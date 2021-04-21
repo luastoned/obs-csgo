@@ -8,8 +8,6 @@ This is not desireable, as it might have a negative impact on your game experien
 
 Signed dlls from `C:\Windows\` are whitelisted, so this plugin will create a folder `obs-studio-hook` and copy the following two signed dlls from OBS there.
 
-The plugin will ask you to run OBS/Streamlabs with admin rights, since writing to `C:\Windows\` requires those.
-
 ```
 graphics-hook32.dll
 graphics-hook64.dll
@@ -22,3 +20,8 @@ Further the path will be patched in OBS to load the same dlls but from the new l
 Put `obs-csgo.dll` into the respective folder:
 * OBS - `\obs-studio\obs-plugins\64bit`
 * Streamlabs - `\Streamlabs OBS\resources\app.asar.unpacked\node_modules\obs-studio-node\obs-plugins\64bit`
+
+## Important Information
+
+* Copying anything to `C:\Windows\` requires admin rights, so for the first time and when OBS updates the dlls, the plugin will ask you to start OBS/Streamlabs with admin rights.
+* This will have no effect on VAC/FaceIt since the original signed dlls from OBS are untouched and only copied to a different location.
