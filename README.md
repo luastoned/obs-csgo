@@ -36,7 +36,7 @@ Put `obs-csgo.dll` into the respective folder:
 * CS:GO crashes when the plugin is installed
   * It looks like this is a bug with Nvidia Ansel since one of their dlls gets blocked by CS:GO.
 You will need to disable Ansel to stop CS:GO from crashing.
-In your `C:\Program Files\NVIDIA Corporation\Ansel[\Tools]` you can find `NvCameraConfiguration.exe` application (needs admin privileges to run). After running it, a dialog window is displayed and in the bottom part you can find Ansel status frame, check disabled there, then OK.
+In your `C:\Program Files\NVIDIA Corporation\Ansel[\Tools]` you can find `NvCameraConfiguration.exe` application (needs admin privileges to run). After running it, a dialog window is displayed and in the bottom part you can find Ansel status frame, check disabled there, then Save.
 ![grafik](https://user-images.githubusercontent.com/173158/115627663-af84ac80-a2ff-11eb-8b3e-dffad9fb11af.png)
 
 
