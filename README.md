@@ -1,9 +1,8 @@
 # OBS Plugin to capture CS:GO with Trusted Mode enabled
 
-Ever since Valve introduced [Trusted Mode](https://blog.counter-strike.net/index.php/2020/07/30991/) you could no longer record Counter-Strike: Global Offensive without using `-allow_third_party_software` in your start parameters.
-
 [![@OBSProject](https://user-images.githubusercontent.com/173158/115598587-dd0b2f00-a2da-11eb-849d-6c68c6675962.png)](https://twitter.com/OBSProject/status/1281016442733854725)
 
+Ever since Valve introduced [Trusted Mode](https://blog.counter-strike.net/index.php/2020/07/30991/) you could no longer record Counter-Strike: Global Offensive without using `-allow_third_party_software` in your start parameters.
 
 This is not desireable, as it might have a negative impact on your game experience (Trust Factor).
 
