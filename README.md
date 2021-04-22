@@ -6,6 +6,18 @@ Ever since Valve introduced [Trusted Mode](https://blog.counter-strike.net/index
 
 This is not desireable, as it might have a negative impact on your game experience (Trust Factor).
 
+## 🚨 [A notice from Valve / McJohn](https://www.reddit.com/r/GlobalOffensive/comments/mvldce/i_created_an_obs_plugin_to_capture_csgo_with/gveoqgc?&context=3) 🚨
+
+> We will close down this particular loophole because (per the FAQ) one of the goals of Trusted mode is to make it trivial to VAC ban someone who has software inside the process when they have claimed to be running without having any third party software injected into the CS:GO game process. Trusted Mode has been extremely successful in this regard.
+>
+> I highly recommend AGAINST using this, or any other Trusted Mode injection bypass. Using any method to bypass Trusted Mode protections that result in third party code being injected into CS:GO can and will catch you a VAC ban, which absolutely will not be rescinded.
+>
+> If you want to stream while playing CS:GO, simply add the launch option
+>
+> -allow_third_party_software
+>
+> OBS will happily inject in the normal way once you've done that.
+
 ## How it works
 
 Signed dlls from `C:\Windows\` are whitelisted, so this plugin will create a folder `obs-studio-hook` and copy the following two signed dlls from OBS there.
