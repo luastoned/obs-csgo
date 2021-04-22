@@ -6,9 +6,10 @@ Ever since Valve introduced [Trusted Mode](https://blog.counter-strike.net/index
 
 This is not desireable, as it might have a negative impact on your game experience (Trust Factor).
 
-## 🚨 [A notice from Valve / McJohn](https://www.reddit.com/r/GlobalOffensive/comments/mvldce/i_created_an_obs_plugin_to_capture_csgo_with/gveoqgc?&context=3) 🚨
+## 🚨 [Disclaimer from Valve / John McDonald](https://www.reddit.com/r/GlobalOffensive/comments/mvldce/i_created_an_obs_plugin_to_capture_csgo_with/gveoqgc?&context=3) 🚨
 
-![reddit/valve/mcjohn](https://user-images.githubusercontent.com/173158/115707436-13928980-a36f-11eb-96cd-6a6665cae3c1.png)
+![reddit/valve/mcjohn](https://user-images.githubusercontent.com/173158/115736486-9d505000-a38b-11eb-8148-d6bd49c4c3e6.png)
+
 
 ## How it works
 
